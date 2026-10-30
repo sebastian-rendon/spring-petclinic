@@ -1,5 +1,5 @@
 FROM eclipse-temurin:25-alpine
-LABEL maintainer="user@udemedellin.edu.co"
+LABEL maintainer="serendon312@soyudemedellin.edu.co"
 COPY /target/*.jar /home/spring-petclinic.jar
 CMD ["java","-jar","/home/spring-petclinic.jar"]
 EXPOSE 8080
